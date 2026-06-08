@@ -3,11 +3,17 @@
 
 # Python
 __pycache__/
+scripts/Reddit/__pycache__
 *.py[cod]
 *.egg-info/
 .venv/
 venv/
 env/
+documents/_sample.jsonl
+documents/chunks.jsonl
+documents/chunks.jsonl.full_bak
+scripts/Reddit/us_all_posts.json
+scripts/Reddit/us_all_posts.json.bak
 
 # Jupyter
 .ipynb_checkpoints/
