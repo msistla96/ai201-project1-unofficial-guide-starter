@@ -9,7 +9,6 @@ scripts/Reddit/__pycache__
 .venv/
 venv/
 env/
-documents/_sample.jsonl
 documents/chunks.jsonl
 documents/chunks.jsonl.full_bak
 scripts/Reddit/us_all_posts.json
