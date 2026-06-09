@@ -53,7 +53,7 @@ Blogs on the other hand have a structured format with headings, paragraphs etc. 
 
 **Sample chunks**
 
-Link to [five sample chunks](documents/sample_chunks.txt), along with source names.
+Link to [five sample chunks](documents/sample_chunks.txt), along with source names. 
 
 ---
 
