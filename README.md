@@ -35,6 +35,7 @@ For Blogs, chunk by paragraph first. If it's larger than 200 tokens, then split 
 
 
 **Overlap:**
+
 Keep 0 overlap for FAQs and Reddit.
 Keep an overlap of 75 tokens for Blogs.
 
@@ -47,10 +48,12 @@ One thing I observed is that Reddit has a nested and complicated structure of co
 Blogs on the other hand have a structured format with headings, paragraphs etc. These require larger chunks and overlap to retain continuation for more detailed queries. It seemed tempting to increase to 500-800 tokens, but thus caused the chunks to have too much information about a lot of topics. Upon looking at the blog sources, each paragraph has a lot of information on its own so that I decided overlapping would be better.
 
 **Final chunk count:**
+
 86219
 
 **Sample chunks**
-Refer to [sample_chunks](documents/_sample.jsonl)
+
+Link to [five sample chunks](documents/sample_chunks.txt), along with source names.
 
 ---
 
@@ -67,18 +70,24 @@ Benchmarking different models local and hosted to check latency and other NLP re
 
 **Retrieval Approach**
 
-Semantic search, BM25 keyword and hybrid search combining the both. The Hybrid apporach uses 
-Rank Reciprocal Fusion to provide a centralized score and equal weight for both. This works by
+Semantic search, BM25 keyword and hybrid search combining the both. The Hybrid apporach uses Rank Reciprocal Fusion to provide a centralized score and equal weight for both. This works by
 taking the reciprocal of the distance and bm25 scores which also have a constant factor added to them to prevent extreme values from affecting the final rank.
 
 Use metadata filtering on queries as well. Display distance score, chunks retrieved, metadata included for K=5.
 
 **Sample Retrievals**
 
-The tests on the 3 queries were done with all the methods above and based on the results
-semantic search worked the best. BM25 did not work as well as semantic search, hence hybrid search didn't as well. My hypothesis is that BM25 could work well if there are very specific keywords or jargon that one is looking for. The nature of the queries are such that there are a lot of filler keywords and non specific words that can match unrelated sources, especially for a Reddit corpus as large as what was scrapped here. 
+For details on metrics and runs, refer to [Sample Retrievals and Metrics](responses/retrieval_tests.txt). 
 
-Refer to [Sample Retrievals and Metrics] for more details(./Sample_Retrieval_Qs)
+Summary:
+
+The tests on the 3 queries were done with all the methods above and based on the results semantic search worked the best. BM25 did not work as well as semantic search, hence hybrid search didn't as well. My hypothesis is that BM25 could work well if there are very specific keywords or jargon that one is looking for. The nature of the queries are such that there are a lot of filler keywords and non specific words that can match unrelated sources, especially for a Reddit corpus as large as what was scrapped here. 
+
+For all three queries, the distance scores were under 0.5
+
+For for the query `How do I know if I will be eligible for H1B lottery in 2026 under Masters degree quota in STEM?`: The distance score is 0.3, and the chunks mostly talk about H1B lottery eligibility, interestingly the chunks come from r/f1visa as it seems like this question comes up more frequently for folks with an F1 visa as they enter the lottery.
+
+The distance scores however were were higher for `How long does premium processing take for J1 visas and how much does it cost?`, around 0.4 and the chunks reflect this as they talk about premium processing for other visa types but not J1.
 
 ---
 
@@ -143,13 +152,17 @@ Below are the questions tested against the system:
 ## Failure Case Analysis
 
 **Question that failed:**
+
 Q1.How long does premium processing take for J1 visas and how much does it cost?
 Q3.How do I know if I will be eligible for H1B lottery in 2026 under Masters degree quota in STEM?
 Q6.How do I apply for Schengen Visa?
 
 **What the system returned:**
-A1:[Link](/responses/evaluation_query_response_1
+
+A1:[Link](/responses/evaluation_query_response_1)
+
 A3:[Link](/responses/evaluation_query_response_3)
+
 A6:[Link](/responses/evaluation_query_response_6)
 
 **Root cause (tied to a specific pipeline stage):**
