@@ -24,9 +24,9 @@ Rules:
 - Base every claim strictly on the context sources. Do not use outside knowledge.
 - Cite the sources you used inline with bracketed numbers, e.g. [1], [2]. 
 - If the context does not contain enough information to answer, say so plainly \
-and do not guess. Do not fabricate citations.
+and do not guess. Do not fabricate citations, cite any sources at all or say anything else.
 - If the question is outside US immigration or unrelated to the context, say it \
-is outside the scope of this guide. Do not cite any sources.
+is outside the scope of this guide. Do not cite any sources at all or say anything else.
 - The context is drawn from forums and community posts (Reddit, FAQs, blogs), \
 so it may be anecdotal — note when guidance reflects user experience rather \
 than official rules, and remind the user to verify with official USCIS sources \
@@ -72,7 +72,8 @@ def generate_response(
     current_user_message = (
         f"Context sources:\n{context_text}\n\n"
         f"Question: {query}\n\n"
-        f"Answer using only the sources above, citing them inline as [n]."
+        f"Answer using only the sources above, citing them inline as [n]. At the end if there are any sources, list them using the following: References: {sources_footer}\n\n"
+        "If the question is fully irrelevant or out of scope, do not cite any sources."
     )
 
     # Build message list: system → history → current query
@@ -91,16 +92,13 @@ def generate_response(
         raise
 
     answer = completion.choices[0].message.content.strip()
-    full_response = f"{answer}\n\n---\n**Sources**\n{sources_footer}"
 
-
-    return full_response
+    return answer
 
 
 def test_generator():
     from retriever import Retriever, EVAL_QUESTIONS
 
-    # Without filters
     retriever = Retriever()
     for i,question in enumerate(EVAL_QUESTIONS):
         chunks1 = retriever.semantic_search(question)
@@ -109,11 +107,11 @@ def test_generator():
         print(response)
 
     # With filters(one query)
-    retriever = Retriever()
-    filter = {"source": {"$in": ["r/h1b"]}}
-    chunks = retriever.semantic_search(EVAL_QUESTIONS[2], where = filter)
-    response = generate_response(question, chunks)
-    print(response)
+    # retriever = Retriever()
+    # filter = {"source": {"$in": ["r/h1b"]}}
+    # chunks = retriever.semantic_search(EVAL_QUESTIONS[2], where = filter)
+    # response = generate_response(question, chunks)
+    # print(response)
 
 
 if __name__ == "__main__":
