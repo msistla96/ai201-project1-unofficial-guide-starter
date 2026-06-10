@@ -447,8 +447,79 @@ The distance scores however were were higher for `How long does premium processi
 
 **How source attribution is surfaced in the response:**
 
-Source attribution is ensured at the prompt level, but with additional instructions on when to show the full set of references.
-(My tests showed that it gave references for irrelevant or out of scope questions.)
+     Source attribution is ensured at the prompt level, but with additional instructions on when to show the full set of references.
+     (My tests showed that it gave references for irrelevant or out of scope questions.)
+
+**Sample Query and Responses**
+
+     Below are queries to the model and the response with sources.
+
+     Q: What documents do I need for a greencard application if I am married to a us citizen but I live outside of the US?
+
+     A: To apply for a green card through marriage, you will need to file Form I-130 and Form I-485, along with supporting documents [1]. Since you live outside of the US, you will need to have either US income or US assets to sponsor the affidavit of support, and you can find the requirements for each on the USCIS website [2]. 
+
+     You will also need to provide evidence of your relationship, such as emails, texts, photos together, and bills with shared names [9]. Additionally, you will need to prove that you have enough money to support your spouse, and if you don't have the sufficient amount required, you can have someone be a "joint sponsor" [9]. 
+
+     It's also recommended to include supporting forms like I-864 (financial support) and I-693 (medical exam), plus optional I-765 (work permit) and I-131 (travel) [1]. However, the specific documents needed may vary depending on your individual situation, and there is no one-size-fits-all list of documents [4]. 
+
+     It's worth noting that while it's possible to DIY the application, it's often recommended to work with an immigration attorney, at least for a review, to ensure everything is presented correctly and supported with strong evidence [1]. But if you're comfortable with paperwork and have a straightforward case, you can try to do it yourself [14], [15], [16], [17], [18]. 
+
+     Remember to verify with official USCIS sources for anything time-sensitive, as the guidance provided here reflects user experience rather than official rules [1].
+
+     ---
+     **References**
+     [1] Green card process — https://reddit.com/r/greencard/comments/1slsj5g
+     [2] Green card through marriage. We don’t live in the States. — https://reddit.com/r/greencard/comments/1rujhzx
+     [3] Green card visa lawyer required or not??? — https://reddit.com/r/greencard/comments/1qe0w2j
+     [4] Visas, Green Cards, and H-1B... AMA! — https://reddit.com/r/greencard/comments/1npegui
+     [5] Marriage based green card — https://reddit.com/r/immigration/comments/1lp4tvw
+     [6] Do we really need a lawyer to apply for a marriage-based green card? — https://reddit.com/r/immigration/comments/1m86s5o
+     [7] Green card through marriage. We don’t live in the States. — https://reddit.com/r/greencard/comments/1rujhzx
+     [8] I feel like this is going fast but now we stopped — https://reddit.com/r/USCIS/comments/1lnl6li
+     [9] Green card process — https://reddit.com/r/greencard/comments/1slsj5g
+     [10] Any idea how is it going for people with green card and divorce in the middle of the process? — https://reddit.com/r/greencard/comments/1ojb3au
+     [11] Green card visa lawyer required or not??? — https://reddit.com/r/greencard/comments/1qe0w2j
+     [12] Filing Marriage Based Green Card — https://reddit.com/r/USCIS/comments/1lz6wli
+     [13] Green card process — https://reddit.com/r/greencard/comments/1slsj5g
+     [14] Do I need a lawyer to apply for a marriage green card? — https://reddit.com/r/immigration/comments/1ljkoof
+     [15] Do I need a lawyer to apply for a marriage green card? — https://reddit.com/r/immigration/comments/1ljkoof
+     [16] Do we really need a lawyer to apply for a marriage-based green card? — https://reddit.com/r/immigration/comments/1m86s5o
+     [17] Do I need a lawyer to apply for a marriage green card? — https://reddit.com/r/immigration/comments/1ljkoof
+     [18] Do we really need a lawyer to apply for a marriage-based green card? — https://reddit.com/r/immigration/comments/1m86s5o
+     [19] Marrying a citizen as a non-citizen — https://reddit.com/r/greencard/comments/1l7c28i
+     [20] Green card through marriage. We don’t live in the States. — https://reddit.com/r/greencard/comments/1rujhzx
+
+
+
+     Q: I did not receive my EAD card I applied for under H4 visa. USCIS portal shows that it's mailed. What do I do?
+
+     A: If your EAD card was mailed but you didn't receive it, you can try filling out a non-delivery form and calling USCIS, as suggested by a user in [2]. You can also raise a service request, as mentioned in [2]. Additionally, you can try contacting USCIS through chat, as one user did in [11], and they may be able to help you re-apply for a replacement card. It's also a good idea to verify your mailing address with USCIS, as mentioned in [8]. 
+     Please note that the guidance provided is based on user experiences and may not reflect official USCIS rules. It's always best to verify with official USCIS sources for the most up-to-date and accurate information.
+
+     ---
+     **References**
+     [1] EAD returned back to USCIS — https://reddit.com/r/f1visa/comments/1p4df8j
+     [2] EAD returned back to USCIS — https://reddit.com/r/f1visa/comments/1p4df8j
+     [3] EAD returned back to USCIS — https://reddit.com/r/f1visa/comments/1p4df8j
+     [4] EAD returned back to USCIS — https://reddit.com/r/f1visa/comments/1p4df8j
+     [5] H4 EAD approval after H4 approval — https://reddit.com/r/h1b/comments/1lvseb1
+     [6] Did USCIS stop approving H4-EAD? Anyone got their EAD approved in last 30 days? — https://reddit.com/r/h1b/comments/1mpc8ed
+     [7] My H1B + H4 + H4 EAD Premium Processing Timeline (Sharing in case it helps someone) — https://reddit.com/r/h1b/comments/1ok7f1r
+     [8] EAD returned back to USCIS — https://reddit.com/r/f1visa/comments/1p4df8j
+     [9] EAD card delivered! — https://reddit.com/r/DACA/comments/1qtezx5
+     [10] ead never received — https://reddit.com/r/f1visa/comments/1n8imu5
+     [11] OPT EAD card lost in the mail by USPS — https://reddit.com/r/f1visa/comments/1njncek
+     [12] H4 EAD card produced, H4 extension pending — https://reddit.com/r/h1b/comments/1me5hah
+     [13] EAD Card returned — https://reddit.com/r/USCIS/comments/1lfdcss
+     [14] H1b, H4 and H4 EAD - Approved in 11 days — https://reddit.com/r/h1b/comments/1m5mwi9
+     [15] EAD card delivered! — https://reddit.com/r/DACA/comments/1qtezx5
+     [16] EAD, Is this approved?? — https://reddit.com/r/USCIS/comments/1lmwu4y
+     [17] EAD Card failed production‼️ — https://reddit.com/r/DACA/comments/1qdpygv
+     [18] USPS messed up my STEM OPT EAD card delivery…:shows delivered to agent but I never got it, neither in mail box — https://reddit.com/r/f1visa/comments/1oa4ii7
+     [19] EAD approved but physical card hasn’t arrived — when will I get it? — https://reddit.com/r/f1visa/comments/1o1q3wy
+     [20] Did USCIS stop approving H4-EAD? Anyone got their EAD approved in last 30 days? — https://reddit.com/r/h1b/comments/1mpc8ed
+
+
 
 ---
 
@@ -474,10 +545,11 @@ Below are the questions tested against the system:
 | 4 | I did not receive my EAD card I applied for under H4 visa. USCIS portal shows that it's mailed. What do I do?| Find the tracking number in your USCIS Account under your H-4 EAD case status.If it says Delivered, check your mailroom, front desk, or neighbors. If still missing, immediately contact your local post office to request a Missing Mail Search. If it says Undeliverable/Returned to Sender, the card is likely heading back to USCIS.  Wait at least 7 business days (but no more than 90 days) after the mailing date before contacting them. Submit a Non-Delivery of Card request using the erequest tool. | [Link](/responses/evaluation_query_response_4)| Relevant| Accurate |
 | 5 | I got rejected in my F1 Visa application and I have classes coming up in a month? How do I reapply with this in mind?| With classes starting in a month, you can reapply immediately, but you must first address the reason for your denial. To salvage your upcoming semester, you need to fix any application flaws, secure a new I-20 with an updated start date, and request an expedited interview. | [Link](/responses/evaluation_query_response_5) | Relevant | Accurate |
 | 6 | (Out of scope) How do I apply for Schengen Visa? | (Systems says it cannot give any information as it's not related to US immigration) |[Link](/responses/evaluation_query_response_6)  | Off-target | Accurate |
-| 7 | (Out of scope)What is the weather? |(Systems says it cannot give any information as it's not related to US immigration) |[Link](/responses/evaluation_query_response_7)  | Relevant | Accurate |
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
+
+
 
 ---
 
