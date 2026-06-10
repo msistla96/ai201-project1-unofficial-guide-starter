@@ -53,14 +53,14 @@ def chat(message, history, source_filter, date_from, date_to):
 
     retriever = get_retriever()
     
-    filters = MetadataFilter(
-        sources=source_filter or [],
-        date_gte=date_from or None,
-        date_lte=date_to or None,
-    ).to_where()
+    # filters = MetadataFilter(
+    #     sources=source_filter or [],
+    #     date_gte=date_from or None,
+    #     date_lte=date_to or None,
+    # ).to_where()
 
-    logger.info("Filters: %s", filters)
-    retrieved = retriever.semantic_search(message,where=filters)
+    # logger.info("Filters: %s", filters)
+    retrieved = retriever.semantic_search(message)
 
     return generate_response(
         query=message,          
@@ -76,7 +76,11 @@ def chat(message, history, source_filter, date_from, date_to):
 with gr.Blocks(
     theme=gr.themes.Soft(primary_hue="blue"),
     title="The Unofficial Immigration Guide",
-) as guide:
+    css="""
+        .gradio-container { max-width: 860px !important; margin: 0 auto !important; }
+        footer { display: none !important; }
+    """
+    ) as guide:
 
     gr.HTML("""
         <div style="text-align:center; padding:1.25rem 0 0.5rem;">
@@ -90,54 +94,27 @@ with gr.Blocks(
         </div>
     """)
 
-    with gr.Row():
-
-        # ── Main chat column ────────────────────────────────────────────────
-        with gr.Column(scale=3):
-            gr.ChatInterface(
-                fn=chat,
-                type="messages",
-                additional_inputs=[
-                    gr.CheckboxGroup(
-                        choices=["r/h1b", "faq","r/immigration","r/USCIS","r/greencard",
-                                 "r/f1visa","r/DACA","blog"],
-                        label="Source",
-                        value=[],
-                    ),
-                    gr.Textbox(
-                        label="Date from (YYYY-MM-DD)",
-                        placeholder="e.g. 2024-01-01",
-                        value="",
-                    ),
-                    gr.Textbox(
-                        label="Date to (YYYY-MM-DD)",
-                        placeholder="e.g. 2025-12-31",
-                        value="",
-                    ),
-                ],
-                chatbot=gr.Chatbot(
-                    height=100,
-                    type="messages",
-                    placeholder=(
-                        "<div style='text-align:center; color:#9ca3af; margin-top:3rem;'>"
-                        "Ask an immigration question to get started"
-                        "</div>"
-                    ),
-                ),
-                textbox=gr.Textbox(
-                    placeholder='e.g. "How long does H1B premium processing take?"',
-                    container=False,
-                    scale=7,
-                ),
-                examples=[
-                    ["What documents do I need for a greencard if I'm married to a US citizen but live abroad?", [], "", ""],
-                    ["How long does premium processing take for J1 visas and how much does it cost?", [], "", ""],
-                    ["Am I eligible for the H1B Masters quota with a STEM degree?", [], "", ""],
-                    ["My H4 EAD shows mailed but I never received it. What do I do?", [], "", ""],
-                    ["My F1 visa was rejected and classes start in a month. How do I reapply?", [], "", ""],
-                ],
-                cache_examples=False,
-            )
+    gr.ChatInterface(
+        fn=chat,
+        type="messages",
+        chatbot=gr.Chatbot(
+            height=480,
+            type="messages",
+            placeholder=(
+                "<div style='text-align:center; color:#9ca3af; margin-top:3rem;'>"
+                "Ask an immigration question to get started"
+                "</div>"
+            ),
+        ),
+        examples=[
+            "What documents do I need for a greencard if I'm married to a US citizen but live abroad?",
+            "How long does premium processing take for J1 visas and how much does it cost?",
+            "Am I eligible for the H1B Masters quota with a STEM degree?",
+            "My H4 EAD shows mailed but I never received it. What do I do?",
+            "My F1 visa was rejected and classes start in a month. How do I reapply?",
+        ],
+        cache_examples=False,
+    )   
 
 
 if __name__ == "__main__":

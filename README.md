@@ -55,6 +55,12 @@ Blogs on the other hand have a structured format with headings, paragraphs etc. 
 
 Link to [five sample chunks](documents/sample_chunks.txt), along with source names. 
 
+     1. www.boundless.com_blog_top-us-work-visa-faqs-reddit.txt": {"chunk_id": "faq_view_source_https_www_boundless_com_blog_top_us_work_visa_faqs_reddit_1_0", "text": "Q: What documents do I need to prepare for a U.S. work visa application?\nA: The specific documents required depend on the type of work visa you are applying for. However, most applicants will need the following documents:\nValid passport:\nMust be valid for at least six months beyond your intended period of stay in the U.S. Job offer or employment letter:\nA letter from your U.S. employer detailing the position, salary, and job duties\nEducational credentials:\nDiplomas, degrees, or transcripts that demonstrate your qualifications for the job\nProof of work experience:\nLetters from previous employers or other documentation supporting your professional background\nResume or curriculum vitae (CV):\nHighlights your work experience and skills relevant to the position\nForm I-797 (Notice of Action)\n:\nThe receipt or approval notice sent to immigrant and nonimmigrant visa applicants to inform them that their application has been received or approved.", "metadata": {"source_type": "faq", "source": "view-source_https___www.boundless.com_blog_top-us-work-visa-faqs-reddit.txt", "title": "The Top 16 U.S. Work Visa FAQs on Reddit", "url": null, "date": null, "author": null, "extra": {"faq_number": 1, "question": "What documents do I need to prepare for a U.S. work visa application?"}, "token_estimate": 191}}
+     2. Plain Text/FAQs/faq1: {"chunk_id": "faq_faq1_0", "text": "Q: Do you expect the EB5 process to get more difficult under the Trump Administration?\nA: During Trump’s first term in office, it seems his Administration was content with allowing the adjudication of EB5 cases to proceed undisturbed, for the most part. Although processing times did increase for nearly all case types, including EB5, we did not see a nationwide increase in RFEs or denials on EB5 cases, as we did for so many other types of cases. So we remain hopeful that the EB5 program will continue to operate relatively smoothly following the change in administration.", "metadata": {"source_type": "faq", "source": "Plain Text/FAQs/faq1", "title": "Do you expect the EB5 process to get more difficult under the Trump Administration?", "url": null, "date": "2025-01-01", "author": null, "extra": {"question": "Do you expect the EB5 process to get more difficult under the Trump Administration?", "faq_set": "murthy"}, "token_estimate": 126}}
+     3. https://reddit.com/r/h1b: {"chunk_id": "reddit_1nlkw08_c_nf675ke_0", "text": "[Post] Those who abused H1B should be prosecuted\n[Comment] The majority of Indians?\n  > US Ivy leages sell MBA as STEM program ... close them down.\n  > Let’s not generalize them to a country. It’s an individual decision at the end of the day. I’m sure many Indians I know won’t support them even. There are many highly skilled Indians out there who are legitimate. It’s unfortunate that majority are Indians who gamed the system.\n    > 70% + of H1Bs were awarded to Indians. Those are the numbers.", "metadata": {"source_type": "reddit", "source": "r/h1b", "title": "Those who abused H1B should be prosecuted", "url": "https://reddit.com/r/h1b/comments/1nlkw08", "date": "2025-09-20T01:07:00+00:00", "author": "Think_Clerk_3284", "extra": {"post_id": "1nlkw08", "kind": "comment", "level": "comment", "parent_id": "reddit_1nlkw08_post", "comment_id": "nf675ke", "comment_author": "BoardwalkNights", "score": 3, "has_replies": true}, "token_estimate": 114}}
+     4. https://reddit.com/r/h1b: {"chunk_id": "reddit_1nlkw08_c_nf67bjx_0", "text": "[Post] Those who abused H1B should be prosecuted\n[Comment] you mean (just for starters mind you)....TCS, Wipro, Infosys, Cognizant, HCL, Tech Mahindra.....etc etc etc etc.... > These consulting companies are the worst and need to be penalized for abusing the system. Their stock just plummeted as a direct result of this EO. > Which stock exactly plummeted? > Indian based companies stock plummeted when the stock market hasnt even opened yet? Stop spreading rumors. > Worth it\n    > Stock markets are closed on weekend my man\n    > They should be delisted from US stock exchanges. > What do they do that’s illegal? > Yep. Fuck em all. > TCS and Infosys absolute garbage.", "metadata": {"source_type": "reddit", "source": "r/h1b", "title": "Those who abused H1B should be prosecuted", "url": "https://reddit.com/r/h1b/comments/1nlkw08", "date": "2025-09-20T01:07:00+00:00", "author": "Think_Clerk_3284", "extra": {"post_id": "1nlkw08", "kind": "comment", "level": "comment", "parent_id": "reddit_1nlkw08_post", "comment_id": "nf67bjx", "comment_author": "CapitalTop9246", "score": 483, "has_replies": true}, "token_estimate": 146}}
+     5. https://reddit.com/r/h1b: {"chunk_id": "reddit_1nlkw08_c_nf67bjx_1", "text": "> State street bank in Boston is facing a reckoning\n  > I have worked at one of these WITCH companies and if anything these guys actually run proper companies, pay taxes and salaries and try to stay right on the legal side because they are a listed company and a brand. The real culprits are the hundreds of no-name consultancies that subcontract to these big firms and other vendors. They break every rule and make millions for just being the middle man - no HR, no benefits, fake payslips, proxy interviews, fake resumes, same guy working for multiple clients. The WITCH companies get noticed because they are big", "metadata": {"source_type": "reddit", "source": "r/h1b", "title": "Those who abused H1B should be prosecuted", "url": "https://reddit.com/r/h1b/comments/1nlkw08", "date": "2025-09-20T01:07:00+00:00", "author": "Think_Clerk_3284", "extra": {"post_id": "1nlkw08", "kind": "comment", "level": "comment", "parent_id": "reddit_1nlkw08_post", "comment_id": "nf67bjx", "comment_author": "CapitalTop9246", "score": 483, "has_replies": true}, "token_estimate": 140}}`
+
 
 ---
 
@@ -80,6 +86,327 @@ Use metadata filtering on queries as well. Display distance score, chunks retrie
 **Sample Retrievals**
 
 For details on metrics and runs, refer to [Sample Retrievals and Metrics](responses/retrieval_tests.txt). 
+
+     Running 3 eval question(s) at top-k=5
+
+     ================================================================================
+     SEMANTIC SEARCH: 
+     ================================================================================
+
+     ================================================================================
+     Query: What documents do I need for a greencard application if I am married to a US citizen but I live outside of the US?
+     ================================================================================
+     RRF:  distance=0.2865  bm25=—
+     source=r/greencard  source_type=reddit  level=comment
+     title=Green card process
+     url=https://reddit.com/r/greencard/comments/1slsj5g
+     text: [Post] Green card process [Comment] For a typical case where your spouse is in the U.S., the steps are: File Form I-130 (to prove the marriage is real) File Form I-485 (green card application) Include supporting forms like I-864 (financial support) and I-693 (medical exam), plus …
+     ↳ post context: [Post] Green card process Hi! My husband and I are attempting to get him a green card through marriage. We have a general idea of what to do but are kind of getting overwhelmed. What are the steps and…
+     RRF:  distance=0.3032  bm25=—
+     source=r/greencard  source_type=reddit  level=comment
+     title=Green card through marriage. We don’t live in the States.
+     url=https://reddit.com/r/greencard/comments/1rujhzx
+     text: [Post] Green card through marriage. We don’t live in the States. [Comment] You need to have either US income or US assets to sponsor the affidavit of support. The requirements for each are here: https://www.uscis.gov/i-864p As long as you have the required income or assets, or yo…
+     ↳ post context: [Post] Green card through marriage. We don’t live in the States. So we’re married already 10 years, we have a 11 y/o. We don’t live in the states (have never lived together there). Our marriage is reg…
+     RRF:  distance=0.3126  bm25=—
+     source=r/greencard  source_type=reddit  level=comment
+     title=Green card visa lawyer required or not???
+     url=https://reddit.com/r/greencard/comments/1qe0w2j
+     text: [Post] Green card visa lawyer required or not??? [Comment] Not required unless there are complications (immigration related offense, previous marriage, etc.). Lots of resources to guide you through filling the forms and whatever documents you need.
+     ↳ post context: [Post] Green card visa lawyer required or not??? I just got married and my husband is Irish. We are looking to apply for the green card for him. Lawyers are crazy expensive and wondering if a lawyer i…
+     RRF:  distance=0.3141  bm25=—
+     source=r/greencard  source_type=reddit  level=comment
+     title=Visas, Green Cards, and H-1B... AMA!
+     url=https://reddit.com/r/greencard/comments/1npegui
+     text: [Post] Visas, Green Cards, and H-1B... AMA! [Comment] What documents need to be prepared and brought to the marriage-based Greencard interview? Why doesn't USCIS just tell the couple a list of the documents needed prior the interview? > There is no one-size-fits-all list of docum…
+     ↳ post context: [Post] Visas, Green Cards, and H-1B... AMA! https://preview.redd.it/6m8xtu8in4rf1.jpg?width=4284&format=pjpg&auto=webp&s=fa362b38e371b87785848e143bd10002be222669 I’m Henry Lindpere, an immigration att…
+     RRF:  distance=0.3151  bm25=—
+     source=r/immigration  source_type=reddit  level=comment
+     title=Marriage based green card
+     url=https://reddit.com/r/immigration/comments/1lp4tvw
+     text: [Post] Marriage based green card [Comment] They are pretty simple for me. If you read the form instructions and read through a couple of hundred pages of the policy manual (Google for it), you cannot DIY. Yours is the most cookie cutter case. Anything beyond USCIS filing fees is …
+     ↳ post context: [Post] Marriage based green card We were quoted $8,500 for filing plus $3,500 attorney fees in Bay Area, California. Does that seem reasonable? Spouse is already in the U.S. on a valid working visa. F…
+
+     ================================================================================
+     BM25 KEYWORD SEARCH: 
+     ================================================================================
+
+     ================================================================================
+     Query: What documents do I need for a greencard application if I am married to a US citizen but I live outside of the US?
+     ================================================================================
+     RRF:  distance=—  bm25=51.882
+     source=r/greencard  source_type=reddit  level=post
+     title=Had to go to back to Germany for a family emergency now I want to go back to the US but dont have my greencard?
+     url=https://reddit.com/r/greencard/comments/1l7ocyt
+     text: [Post] Had to go to back to Germany for a family emergency now I want to go back to the US but dont have my greencard? Hey I live in the US as a LPR and recently had to fly to Germany for a family emergency. My greencard is lost. Do I need to go to the closest consulate to get a …
+     RRF:  distance=—  bm25=51.524
+     source=r/greencard  source_type=reddit  level=comment
+     title=US citizen married to Japanese citizen (US greencard holder). Contemplating giving up US green card
+     url=https://reddit.com/r/greencard/comments/1r2c0y5
+     text: [Post] US citizen married to Japanese citizen (US greencard holder). Contemplating giving up US green card [Comment] Maybe keep it and do Guam runs until you figure out your situation. For context my wife is a GC holder and we do NY and Guam runs when we leave the country for lon…
+     RRF:  distance=—  bm25=51.430
+     source=r/greencard  source_type=reddit  level=comment
+     title=Green Card Holders living outside the US?
+     url=https://reddit.com/r/greencard/comments/1q92v88
+     text: [Post] Green Card Holders living outside the US? [Comment] A green card is for a US **permanent resident**. A person living outside the US doesn't need a green card, do they? > I agree! Why get a green card (which is so difficult) if a person plans to live outside the US? > I get…
+     RRF:  distance=—  bm25=51.226
+     source=r/greencard  source_type=reddit  level=comment
+     title=US citizen married to Japanese citizen (US greencard holder). Contemplating giving up US green card
+     url=https://reddit.com/r/greencard/comments/1r2c0y5
+     text: [Post] US citizen married to Japanese citizen (US greencard holder). Contemplating giving up US green card [Comment] I’m a green holder (not Japanese) who’s considering leaving. I believe there’s a form you need to fill out to surrender your gc when you file your taxes for 2026. …
+     RRF:  distance=—  bm25=51.216
+     source=r/greencard  source_type=reddit  level=comment
+     title=Any one here who had given up their greencard? Do you regret it or not at all?
+     url=https://reddit.com/r/greencard/comments/1sgtfm6
+     text: [Post] Any one here who had given up their greencard? Do you regret it or not at all? [Comment] Yes, I did. I lived in the US for years on a greencard but I really wasn’t happy there. I moved back home 2 years ago and gave up my greencard. It was the best decision for me and I am…
+
+     ================================================================================
+     HYBRID SEARCH: 
+     ================================================================================
+
+     ================================================================================
+     Query: What documents do I need for a greencard application if I am married to a US citizen but I live outside of the US?
+     ================================================================================
+     RRF: 0.02 distance=0.2865  bm25=—
+     source=r/greencard  source_type=reddit  level=comment
+     title=Green card process
+     url=https://reddit.com/r/greencard/comments/1slsj5g
+     text: [Post] Green card process [Comment] For a typical case where your spouse is in the U.S., the steps are: File Form I-130 (to prove the marriage is real) File Form I-485 (green card application) Include supporting forms like I-864 (financial support) and I-693 (medical exam), plus …
+     ↳ post context: [Post] Green card process Hi! My husband and I are attempting to get him a green card through marriage. We have a general idea of what to do but are kind of getting overwhelmed. What are the steps and…
+     RRF: 0.02 distance=—  bm25=51.882
+     source=r/greencard  source_type=reddit  level=post
+     title=Had to go to back to Germany for a family emergency now I want to go back to the US but dont have my greencard?
+     url=https://reddit.com/r/greencard/comments/1l7ocyt
+     text: [Post] Had to go to back to Germany for a family emergency now I want to go back to the US but dont have my greencard? Hey I live in the US as a LPR and recently had to fly to Germany for a family emergency. My greencard is lost. Do I need to go to the closest consulate to get a …
+     RRF: 0.02 distance=0.3032  bm25=—
+     source=r/greencard  source_type=reddit  level=comment
+     title=Green card through marriage. We don’t live in the States.
+     url=https://reddit.com/r/greencard/comments/1rujhzx
+     text: [Post] Green card through marriage. We don’t live in the States. [Comment] You need to have either US income or US assets to sponsor the affidavit of support. The requirements for each are here: https://www.uscis.gov/i-864p As long as you have the required income or assets, or yo…
+     ↳ post context: [Post] Green card through marriage. We don’t live in the States. So we’re married already 10 years, we have a 11 y/o. We don’t live in the states (have never lived together there). Our marriage is reg…
+     RRF: 0.02 distance=—  bm25=51.524
+     source=r/greencard  source_type=reddit  level=comment
+     title=US citizen married to Japanese citizen (US greencard holder). Contemplating giving up US green card
+     url=https://reddit.com/r/greencard/comments/1r2c0y5
+     text: [Post] US citizen married to Japanese citizen (US greencard holder). Contemplating giving up US green card [Comment] Maybe keep it and do Guam runs until you figure out your situation. For context my wife is a GC holder and we do NY and Guam runs when we leave the country for lon…
+     RRF: 0.02 distance=0.3126  bm25=—
+     source=r/greencard  source_type=reddit  level=comment
+     title=Green card visa lawyer required or not???
+     url=https://reddit.com/r/greencard/comments/1qe0w2j
+     text: [Post] Green card visa lawyer required or not??? [Comment] Not required unless there are complications (immigration related offense, previous marriage, etc.). Lots of resources to guide you through filling the forms and whatever documents you need.
+     ↳ post context: [Post] Green card visa lawyer required or not??? I just got married and my husband is Irish. We are looking to apply for the green card for him. Lawyers are crazy expensive and wondering if a lawyer i…
+
+     ================================================================================
+     SEMANTIC SEARCH: 
+     ================================================================================
+
+     ================================================================================
+     Query: How long does premium processing take for J1 visas and how much does it cost?
+     ================================================================================
+     RRF:  distance=0.3422  bm25=—
+     source=USCIS Premium Processing Cost & Benefits _ Ashoori Law.txt  source_type=blog
+     title=USCIS Premium Processing: Is it Worth it?
+     url=None
+     text: For instance, if the standard processing time for an L1 Visa petition is six months, utilizing premium processing involves paying an extra fee, currently set at $2,500, to have the case reviewed within just 15 days. A New Angle on Premium Processing While the expedited processing…
+     RRF:  distance=0.3497  bm25=—
+     source=r/h1b  source_type=reddit  level=comment
+     title=Pay for H1B Premium Processing out of pocket?
+     url=https://reddit.com/r/h1b/comments/1l52ann
+     text: [Post] Pay for H1B Premium Processing out of pocket? [Comment] Regular takes 4-6 months. There is no guarantee it will be approved by Oct 1 so if it's filed COS and you want it effective Oct 1, then do premium. If it will require consular processing, then it shouldn't matter sinc…
+     ↳ post context: [Post] Pay for H1B Premium Processing out of pocket? I just got the lottery win for H1B this year, but as per my company's policy they only will submit the petition under regular processing. They do a…
+     RRF:  distance=0.3586  bm25=—
+     source=r/f1visa  source_type=reddit  level=post
+     title=OPT Application and Premium Processing Fee Update and Advice Sep 2025.
+     url=https://reddit.com/r/f1visa/comments/1numnq9
+     text: [Post] OPT Application and Premium Processing Fee Update and Advice Sep 2025. I received the completed i20 doc with recommendation within 3h of the call. Lesson: Be polite but pushy, always follow up, follow up many times. Make them want to process your file faster so you stop fo…
+     RRF:  distance=0.3596  bm25=—
+     source=r/h1b  source_type=reddit  level=comment
+     title=Pay for H1B Premium Processing out of pocket?
+     url=https://reddit.com/r/h1b/comments/1l52ann
+     text: [Post] Pay for H1B Premium Processing out of pocket? [Comment] If you have enough time to have a valid visa till the approval comes then you can have regular processing and also the scenario if you don’t have a travel planned anytime soon But if you have a dilemma with the status…
+     ↳ post context: [Post] Pay for H1B Premium Processing out of pocket? I just got the lottery win for H1B this year, but as per my company's policy they only will submit the petition under regular processing. They do a…
+     RRF:  distance=0.3698  bm25=—
+     source=r/h1b  source_type=reddit  level=comment
+     title=H1B pending
+     url=https://reddit.com/r/h1b/comments/1o3ai5t
+     text: [Post] H1B pending [Comment] Hang in there, it takes time without premium. 3.5 months is mentioned on their website. > 7.5 months - from USCIS website. Anyone can check it. It used to be 3.5 months earlier this year, but since summer processing times went down.
+     ↳ post context: [Post] H1B pending Got picked in 2025 lottery and my employer applied by the end of June. There hasn’t been any update. Standard processing. How long can I expect approval to take? Any instances where…
+
+     ================================================================================
+     BM25 KEYWORD SEARCH: 
+     ================================================================================
+
+     ================================================================================
+     Query: How long does premium processing take for J1 visas and how much does it cost?
+     ================================================================================
+     RRF:  distance=—  bm25=38.958
+     source=r/f1visa  source_type=reddit  level=comment
+     title=To premium process or not….
+     url=https://reddit.com/r/f1visa/comments/1mt1289
+     text: [Post] To premium process or not…. [Comment] I don’t think it’s too late. I paid for PP on 8/11 and got approved on 8/16. > How much does that cost?? > Did you do premium Processing for f1 reinstatement? > hey when was your card produces after it was approved
+     RRF:  distance=—  bm25=36.915
+     source=r/f1visa  source_type=reddit  level=comment
+     title=Defer enrollment
+     url=https://reddit.com/r/f1visa/comments/1lclav0
+     text: [Post] Defer enrollment [Comment] On average, how long does it take to process the F1? For J1, I know it takes 5-7 business days and B1/B2 up to 3-4 weeks but for F1? > 3-5 days for F1 typically
+     RRF:  distance=—  bm25=35.715
+     source=r/USCIS  source_type=reddit  level=post
+     title=I-765 Timeline - Approval Case Decision Rendered
+     url=https://reddit.com/r/USCIS/comments/1lvnlkd
+     text: [Post] I-765 Timeline - Approval Case Decision Rendered Hello! Does anyone know how long does it take to receive the official notice and additionally how long does it take for EAD to arrive?
+     RRF:  distance=—  bm25=35.431
+     source=r/USCIS  source_type=reddit  level=post
+     title=Green card letter extension
+     url=https://reddit.com/r/USCIS/comments/1lfugt7
+     text: [Post] Green card letter extension Hi how what is the cost for a letter extension and how long does this process take?
+     RRF:  distance=—  bm25=33.006
+     source=r/greencard  source_type=reddit  level=comment
+     title=Immigration Attorney AMA about Employment-Based Green Cards!
+     url=https://reddit.com/r/greencard/comments/1r83mrz
+     text: [Post] Immigration Attorney AMA about Employment-Based Green Cards! [Comment] Hi, how long does the entire EB-2 GC process take if I opt for premium processing and I am not from the countries with huge backlogs?
+
+     ================================================================================
+     HYBRID SEARCH: 
+     ================================================================================
+
+     ================================================================================
+     Query: How long does premium processing take for J1 visas and how much does it cost?
+     ================================================================================
+     RRF: 0.03 distance=0.3882  bm25=33.006
+     source=r/greencard  source_type=reddit  level=comment
+     title=Immigration Attorney AMA about Employment-Based Green Cards!
+     url=https://reddit.com/r/greencard/comments/1r83mrz
+     text: [Post] Immigration Attorney AMA about Employment-Based Green Cards! [Comment] Hi, how long does the entire EB-2 GC process take if I opt for premium processing and I am not from the countries with huge backlogs?
+     ↳ post context: [Post] Immigration Attorney AMA about Employment-Based Green Cards! Hey everyone! I’m David Santiago, Senior Immigration Counsel at Manifest Law, and I’m hosting an AMA focused on all Employment-Based…
+     ↳ post context: [Post] Immigration Attorney AMA about Employment-Based Green Cards! Participating does not create an attorney–client relationship. For advice about your specific case, consult your own immigration att…
+     RRF: 0.03 distance=0.3888  bm25=31.147
+     source=r/h1b  source_type=reddit  level=post
+     title=H1B premium Processing
+     url=https://reddit.com/r/h1b/comments/1lk5j1u
+     text: [Post] H1B premium Processing I recently filed for H1B transfer petition with new employer with premium processing. Anyone else didn’t recently? How long did it take?
+     RRF: 0.03 distance=0.4041  bm25=32.707
+     source=r/h1b  source_type=reddit  level=post
+     title=California Premium Processing Timeline
+     url=https://reddit.com/r/h1b/comments/1m5ocq5
+     text: [Post] California Premium Processing Timeline Good morning, I submitted my h1b application on Jun 16th and it is currently in progress at the California processing center. I know it is supposed to be processed with in 15 days; but does anyone have a datapoint on how long it takes…
+     RRF: 0.02 distance=0.3422  bm25=—
+     source=USCIS Premium Processing Cost & Benefits _ Ashoori Law.txt  source_type=blog
+     title=USCIS Premium Processing: Is it Worth it?
+     url=None
+     text: For instance, if the standard processing time for an L1 Visa petition is six months, utilizing premium processing involves paying an extra fee, currently set at $2,500, to have the case reviewed within just 15 days. A New Angle on Premium Processing While the expedited processing…
+     RRF: 0.02 distance=—  bm25=38.958
+     source=r/f1visa  source_type=reddit  level=comment
+     title=To premium process or not….
+     url=https://reddit.com/r/f1visa/comments/1mt1289
+     text: [Post] To premium process or not…. [Comment] I don’t think it’s too late. I paid for PP on 8/11 and got approved on 8/16. > How much does that cost?? > Did you do premium Processing for f1 reinstatement? > hey when was your card produces after it was approved
+
+     ================================================================================
+     SEMANTIC SEARCH: 
+     ================================================================================
+
+     ================================================================================
+     Query: How do I know if I will be eligible for H1B lottery in 2026 under Masters degree quota in STEM?
+     ================================================================================
+     RRF:  distance=0.2384  bm25=—
+     source=r/f1visa  source_type=reddit  level=comment
+     title=What if I can not participate in the first round of H1B due to graduating late (STEM OPT)?
+     url=https://reddit.com/r/f1visa/comments/1opn5pu
+     text: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? [Comment] 1. Since you already have a bachelor’s, you can definitely enter the lottery, and if picked, start H-1B status October 1. 2. As long as you have the master’s by the time yo…
+     ↳ post context: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Hi Everyone, So, I'm in a weird situation. My professor is urging me to defend my thesis in December b…
+     ↳ post context: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Now, what I want to know is, as they will not be able to do the first round for me (I am in STEM field…
+     RRF:  distance=0.2537  bm25=—
+     source=r/f1visa  source_type=reddit  level=comment
+     title=What if I can not participate in the first round of H1B due to graduating late (STEM OPT)?
+     url=https://reddit.com/r/f1visa/comments/1opn5pu
+     text: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? [Comment] OPT STEM requires you to complete the degree before entering the lottery. You won't be able to do it this year > I will be on OPT in 2026. So, in January 2027 will be on ST…
+     ↳ post context: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Hi Everyone, So, I'm in a weird situation. My professor is urging me to defend my thesis in December b…
+     ↳ post context: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Now, what I want to know is, as they will not be able to do the first round for me (I am in STEM field…
+     RRF:  distance=0.3090  bm25=—
+     source=r/f1visa  source_type=reddit  level=post
+     title=What if I can not participate in the first round of H1B due to graduating late (STEM OPT)?
+     url=https://reddit.com/r/f1visa/comments/1opn5pu
+     text: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Now, what I want to know is, as they will not be able to do the first round for me (I am in STEM field, so will have additional two years for OPT hopefully), will there be any conseq…
+     RRF:  distance=0.3097  bm25=—
+     source=r/h1b  source_type=reddit  level=post
+     title=so there's a chance that there won't be h1b lottery next year?
+     url=https://reddit.com/r/h1b/comments/1nnzh0n
+     text: [Post] so there's a chance that there won't be h1b lottery next year? every h1b applicant next year will probably just get an h1b automatically?
+     RRF:  distance=0.3212  bm25=—
+     source=r/f1visa  source_type=reddit  level=comment
+     title=Would this work after graduation….OPT?
+     url=https://reddit.com/r/f1visa/comments/1nhbk66
+     text: [Post] Would this work after graduation….OPT? [Comment] 1, you are only allowed to apply opt in 90 days before your program end day(not equal to graduation/ceremony) on you i20, and you must ask your DSO for recommendation and sign on a new i20 before application. 2, as other pos…
+     ↳ post context: [Post] Would this work after graduation….OPT? I’m trying to plan ahead for what to do after graduation. I got an internship during my junior year, and they’re willing to sponsor me. Right now, I’m stu…
+
+     ================================================================================
+     BM25 KEYWORD SEARCH: 
+     ================================================================================
+
+     ================================================================================
+     Query: How do I know if I will be eligible for H1B lottery in 2026 under Masters degree quota in STEM?
+     ================================================================================
+     RRF:  distance=—  bm25=46.367
+     source=r/f1visa  source_type=reddit  level=comment
+     title=What if I can not participate in the first round of H1B due to graduating late (STEM OPT)?
+     url=https://reddit.com/r/f1visa/comments/1opn5pu
+     text: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? [Comment] OPT STEM requires you to complete the degree before entering the lottery. You won't be able to do it this year > I will be on OPT in 2026. So, in January 2027 will be on ST…
+     RRF:  distance=—  bm25=41.500
+     source=r/f1visa  source_type=reddit  level=post
+     title=What if I can not participate in the first round of H1B due to graduating late (STEM OPT)?
+     url=https://reddit.com/r/f1visa/comments/1opn5pu
+     text: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Now, what I want to know is, as they will not be able to do the first round for me (I am in STEM field, so will have additional two years for OPT hopefully), will there be any conseq…
+     RRF:  distance=—  bm25=41.042
+     source=r/f1visa  source_type=reddit  level=post
+     title=Has my chances for H1B visa increased or has it become worse
+     url=https://reddit.com/r/f1visa/comments/1q6367b
+     text: [Post] Has my chances for H1B visa increased or has it become worse I saw the new wage based H1b visa rule. I’m wanting to understand if my chances have increased or decreased. Background- Have a bachelors degree non stem, work at a big 4 as an auditor in one of a major metropoli…
+     RRF:  distance=—  bm25=40.436
+     source=r/h1b  source_type=reddit  level=post
+     title=H1B after 6 years
+     url=https://reddit.com/r/h1b/comments/1n808os
+     text: [Post] H1B after 6 years My 6 years of H-1B status will expire in December 2025. My green card process was started about 5 months ago, and I am still in the PWD stage. I do not expect my I-140 to be approved for another 2 years. If I leave the United States in September 2025, wil…
+     RRF:  distance=—  bm25=40.415
+     source=r/f1visa  source_type=reddit  level=post
+     title=How does the new H1B proclamation affect STEM OPT holders?
+     url=https://reddit.com/r/f1visa/comments/1nlsv17
+     text: [Post] How does the new H1B proclamation affect STEM OPT holders? Does anyone know if STEM OPT people will be affected by the new H1B proclamation? From what I read it seems like the 100k fee is only applicable if a company files a petition for someone outside the US? For people …
+
+     ================================================================================
+     HYBRID SEARCH: 
+     ================================================================================
+
+     ================================================================================
+     Query: How do I know if I will be eligible for H1B lottery in 2026 under Masters degree quota in STEM?
+     ================================================================================
+     RRF: 0.03 distance=0.2537  bm25=46.367
+     source=r/f1visa  source_type=reddit  level=comment
+     title=What if I can not participate in the first round of H1B due to graduating late (STEM OPT)?
+     url=https://reddit.com/r/f1visa/comments/1opn5pu
+     text: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? [Comment] OPT STEM requires you to complete the degree before entering the lottery. You won't be able to do it this year > I will be on OPT in 2026. So, in January 2027 will be on ST…
+     ↳ post context: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Hi Everyone, So, I'm in a weird situation. My professor is urging me to defend my thesis in December b…
+     ↳ post context: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Now, what I want to know is, as they will not be able to do the first round for me (I am in STEM field…
+     RRF: 0.03 distance=0.3090  bm25=41.500
+     source=r/f1visa  source_type=reddit  level=post
+     title=What if I can not participate in the first round of H1B due to graduating late (STEM OPT)?
+     url=https://reddit.com/r/f1visa/comments/1opn5pu
+     text: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Now, what I want to know is, as they will not be able to do the first round for me (I am in STEM field, so will have additional two years for OPT hopefully), will there be any conseq…
+     RRF: 0.02 distance=0.2384  bm25=—
+     source=r/f1visa  source_type=reddit  level=comment
+     title=What if I can not participate in the first round of H1B due to graduating late (STEM OPT)?
+     url=https://reddit.com/r/f1visa/comments/1opn5pu
+     text: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? [Comment] 1. Since you already have a bachelor’s, you can definitely enter the lottery, and if picked, start H-1B status October 1. 2. As long as you have the master’s by the time yo…
+     ↳ post context: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Hi Everyone, So, I'm in a weird situation. My professor is urging me to defend my thesis in December b…
+     ↳ post context: [Post] What if I can not participate in the first round of H1B due to graduating late (STEM OPT)? Now, what I want to know is, as they will not be able to do the first round for me (I am in STEM field…
+     RRF: 0.02 distance=—  bm25=41.042
+     source=r/f1visa  source_type=reddit  level=post
+     title=Has my chances for H1B visa increased or has it become worse
+     url=https://reddit.com/r/f1visa/comments/1q6367b
+     text: [Post] Has my chances for H1B visa increased or has it become worse I saw the new wage based H1b visa rule. I’m wanting to understand if my chances have increased or decreased. Background- Have a bachelors degree non stem, work at a big 4 as an auditor in one of a major metropoli…
+     RRF: 0.02 distance=0.3097  bm25=—
+     source=r/h1b  source_type=reddit  level=post
+     title=so there's a chance that there won't be h1b lottery next year?
+     url=https://reddit.com/r/h1b/comments/1nnzh0n
+     text: [Post] so there's a chance that there won't be h1b lottery next year? every h1b applicant next year will probably just get an h1b automatically?
 
 Summary:
 
@@ -120,9 +447,8 @@ The distance scores however were were higher for `How long does premium processi
 
 **How source attribution is surfaced in the response:**
 
-Source attribution is ensured through code rather than the LLM to provide a consistent format.
-However this causes an issue where any query that is out of scope will have its sources cited.
-(Due to lack of time, I was unable to test the prompt inserting sources)
+Source attribution is ensured at the prompt level, but with additional instructions on when to show the full set of references.
+(My tests showed that it gave references for irrelevant or out of scope questions.)
 
 ---
 
@@ -131,8 +457,11 @@ However this causes an issue where any query that is out of scope will have its 
 **How to generate responses**
 
 1. Fork or clone the repository.
-2. Navigate to the file generator.py and search for `test_generator`. It will loop through a set of questions defined in a list called `EVAL_QUESTIONS` located in `retriever.py`. That is the input provided to the model.
-3. Run `python generator.py` on your CLI. It will generate responses which cites the sources it uses.
+2. Run `python app.py` on your CLI. 
+3. The Gradio interface launches, with an interface that gives you examples of questions you can ask.
+4. Enter the query and press Enter. The interface provides an answer, with sources cited right after the response.
+
+![UI with query and answer](image.png)
 
 Below are the questions tested against the system:
 
@@ -155,12 +484,14 @@ Below are the questions tested against the system:
 ## Failure Case Analysis
 
 **Question that failed:**
+
 Q1.How long does premium processing take for J1 visas and how much does it cost?
 Q3.How do I know if I will be eligible for H1B lottery in 2026 under Masters degree quota in STEM?
 Q6.How do I apply for Schengen Visa?
 
 **What the system returned:**
-A1:[Link](/responses/evaluation_query_response_1
+
+A1:[Link](/responses/evaluation_query_response_1)
 A3:[Link](/responses/evaluation_query_response_3)
 A6:[Link](/responses/evaluation_query_response_6)
 
@@ -200,7 +531,7 @@ Additionally I iterated through the data collection, chunking and ingestion stag
 - *What I gave the AI:*
 Documents collected under `documents`, `Document sources` and `Chunking` in `planning.md` for loading Reddit Data from Arctic Shift(API that gets historical data through periodic dumps).
 - *What it produced:*
-It produced `ingest.py`, `parse_html.py` and `chunking.py`, which 
+It produced `ingest.py`, `parse_html.py` and `chunking.py`
 - *What I changed or overrode:*
 For `ingest.py` I noticed rate limit issues and lots of time taken to load posts and comments. 
 
